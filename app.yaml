@@ -1,0 +1,9 @@
+application: pgu-geo-ng-api
+version: 1
+runtime: go
+api_version: go1
+
+handlers:
+- url: /tasks/.*
+  script: _go_app
+
